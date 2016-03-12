@@ -33,7 +33,7 @@
 
 CXX = g++
 
-ANNLIB = /usr/local/ann_1.1.2
+ANNLIB = /usr/local/
 
 CXXFLAGS = \
 	   -Iinclude \
