@@ -59,6 +59,8 @@ LDFLAGS = \
 
 all: main main_w_density
 
+api: api_main.cpp
+	$(CXX) $(LIBPATH) -o api.so api_main.cpp $(CXXFLAGS) $(LDFLAGS) 
 main:  main.cpp 
 	$(CXX) $(LIBPATH) -o main main.cpp $(CXXFLAGS) $(LDFLAGS) 
 
